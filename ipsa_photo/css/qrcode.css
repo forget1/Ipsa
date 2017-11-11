@@ -1,0 +1,220 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url("../img/1.jpg") center center no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+}
+
+body span {
+    font-size: inherit;
+}
+
+.container {
+    /*padding: 20px;*/
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 421px;
+    height: 163px;
+    background: url("../img/2.png");
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.style_title {
+    margin: 10px 0;
+}
+
+.wrapper {
+    display: inline-block;
+    /*margin-right: 50px;*/
+    /*margin-top: 20px;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.swiper-slide {
+    height: auto !important;
+}
+.qrcode {
+    width: 60%;
+    /* height: 100%; */
+    margin: 0 auto;
+    margin-top: 50%;
+}
+
+.qrcode canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap_code {
+    /*display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 50px;*/
+    /* new height: 250px;
+	width: 250px;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);*/
+    /*top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	margin-top: -50px;*/
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    /* margin-left: 30px; */
+    margin-top: 30px;
+    -webkit-transform: translate(10%, 10%);
+    transform: translate(10%, 10%);
+    /*background: url('../upload/20171024184352624_1.jpg') no-repeat 0 0;*/
+    background-size: cover;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.wrap_code .name {
+    position: absolute;
+    bottom: -40px;
+    white-space: nowrap;
+    text-align: center;
+    left: 50%;
+    /*-webkit-transform: translateX(-50%);*/
+    /*transform: translateX(-50%);*/
+}
+
+.wrap_code .name_id {
+    position: absolute;
+    /*top: -30px;*/
+    bottom: -30px;
+    white-space: nowrap;
+    text-align: center;
+    left: 0;
+    /*left: 30px;*/
+    /*left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);*/
+    width: 100%;
+    font-size: 16px;
+}
+
+.next_btn {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    /*width: 100px;*/
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 2px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+.next_btn:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+.qrcode_info {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: none;
+}
+
+.people {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.border_img {
+    width: 320px;
+    height: 474px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 26%;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.code {
+    width: 125px;
+    height: 125px;
+    background: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 55%;
+}
+
+canvas {
+    width: 125px;
+    height: 125px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: 61% !important;
+    background-size: 37px 38px !important;
+}
+
+.swiper-button-next {
+    background-image: url('../img/next.png') !important;
+    width: 67px !important;
+    height: 68px !important;
+}
+
+.swiper-button-prev {
+    background-image: url('../img/prev.png') !important;
+    width: 67px !important;
+    height: 68px !important;
+}

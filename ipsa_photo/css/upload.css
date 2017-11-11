@@ -1,0 +1,128 @@
+.container {
+	padding: 20px;
+	position: relative;
+}
+.title {
+	padding: 0 0 15px 0;
+	font-size: 24px;
+}
+.sub, .general {
+	margin: 20px 0;
+}
+.sub .sub_img, .sub input {
+	display: inline-block;
+	vertical-align: top; 
+}
+.sub .sub_img {
+	width: 40px;
+	height: 60px;
+	/*height: auto;
+	text-indent: 2000px;*/
+}
+.sub input {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.general label, .general input, .general select {
+	display: inline-block;
+}
+.general input {
+	border: 1px solid #ccc;
+	padding-left: 0;
+	padding-top: 0;
+	margin-left: 15px;
+	padding: 5px 10px;
+	text-align: left;
+	text-indent: 5px; 
+}
+.general select  {
+	border: 1px solid #ccc;
+	width: 146px;
+	margin-left: 15px;
+	height: 30px;
+	text-indent: 15px;
+	-webkit-appearance: none;
+  	-webkit-border-radius: 0px;
+  	position: relative;
+}
+/*.sub.general select:after {
+	content: '&or;';
+	display: block;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+}*/
+/*.sub.general .down {
+	display: block;
+	margin-left: 30px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-size: 24px;
+}*/
+.submit {
+	font-size: 18px;
+	padding: 4px 40px;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #DDD;
+}
+.submit:hover {
+	background-color: #CCC;
+}
+.qrcode {
+	position: absolute;
+	width: 300px;
+	height: 380px;
+	top: 50%;
+	right: 5%;
+	/*border: 1px solid #ccc;*/
+	-webkit-transform: translateY(-505);
+	transform: translateY(-50%);
+}
+.qrcode .sub_qrcode {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #ccc;
+}
+.qrcode canvas {
+	width: 300px;
+	height: 300px;
+}
+.qrcode .style_name {
+	margin: 5px 0px 1px 0;
+}
+.simu {
+	display: inline-block;
+	font-size: 14px;
+    padding: 4px 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #DDD;
+}
+.simu:hover {
+	background-color: #CCC;
+}
+.tip {
+	width: 300px;
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+	border: 1px solid #ccc;
+	font-size: 24px;
+	left: 50%;
+	top: 50%;
+	border-radius: 5px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #ccc;
+	display: none;
+}
+
+
+
